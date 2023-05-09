@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# print_alphabet
+# 2-print_alphabet.py
 """program that prints the ASCII alphabet, in lowercase."""
 
 for alpha in range(97, 123):
