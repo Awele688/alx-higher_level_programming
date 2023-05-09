@@ -6,7 +6,7 @@ if number < 0:
     dig = -dig
 print("Last digit of %d is %d and is " % (number, dig), end="")
 if dig > 5:
-    print("greater than 5)
+    print("greater than 5")
 elif dig == 0:
     print("0")
 else:
