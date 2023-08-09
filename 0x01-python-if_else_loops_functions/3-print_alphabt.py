@@ -4,5 +4,5 @@
 """prints the ASCII alphabet, in lowercase, not followed by a new line."""
 
 for alpha in range(97, 123):
-    if chr(alpha) is not 'q' and chr(alpha) is not 'e':
+    if chr(alpha) != 'q' and chr(alpha) != 'e':
         print("{}".format(chr(alpha)), end="")
